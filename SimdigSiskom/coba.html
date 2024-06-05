@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kotak-Kotak HTML dengan Flexbox</title>
+<style>
+  /* Gaya untuk kotak-kotak */
+  .container {
+    display: flex; /* Mengatur tata letak dengan Flexbox */
+  }
+
+  .kotak {
+    width: 100px;
+    height: 100px;
+    margin: 10px; /* Jarak antara kotak */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+    line-height: 100px; /* Menengahkan vertikal teks */
+    border: 2px solid #f00; /* Warna garis merah, tebal 2px */
+    color: #f00; /* Warna teks merah */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Kotak pertama -->
+  <div class="kotak">Kotak 1</div>
+
+  <!-- Kotak kedua -->
+  <div class="kotak">Kotak 2</div>
+
+  <!-- Kotak ketiga -->
+  <div class="kotak">Kotak 3</div>
+</div>
+
+<!-- Teks yang berada di bawah kotak-kotak -->
+<p>Teks yang berada di bawah kotak-kotak</p>
+
+</body>
+</html>
